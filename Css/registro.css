@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    align-items: stretch;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* Ajusta los divs para que tengan la misma altura */
+}
+
+h2 {
+    text-align: center;
+    color: #1D3A6C;
+    /* Centra el texto */
+}
+
+.image,
+.form {
+    flex: 1;
+    /* Hace que ambos divs tengan el mismo tamaño */
+    padding: 10px;
+    /* Agrega espaciado alrededor de los divs */
+}
+
+img {
+    max-width: 100%;
+    /* Asegura que la imagen no supere el ancho del contenedor */
+}
+
+input,
+button {
+    font-size: 14px;
+    padding: 4px;
+}
+
+button {
+    background: #1D3A6C;
+    border: none;
+    color: white;
+    opacity: 0.5;
+}
+
+button:enabled {
+    opacity: 1;
+}
+
+form {
+    font-family: Arial;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+div {
+    margin-bottom: 10px;
+}
+
+input,
+button {
+    font-size: 14px;
+    padding: 4px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    /* Apila los elementos verticalmente */
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda */
+    margin-bottom: 10px;
+}
+
+input,
+label {
+    margin-bottom: 5px;
+    /* Agrega espacio entre los elementos */
+}

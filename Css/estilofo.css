@@ -1,0 +1,80 @@
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1d3a6c;
+    color: #fff;
+    padding: -400px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px; /* Reducir el tamaño de la fuente */
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    font-size: 16;
+}
+
+.column {
+    flex: 1;
+    /* Hacer que cada columna ocupe el mismo espacio */
+    padding: 0 20px;
+    /* Añadir espacio interno */
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 400px;
+    font-size: 16;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    padding-top: 20px;
+    /* Añadir espacio superior */
+}
+
+.social a {
+    color: #fff;
+    margin-right: 60px;
+    font-size: 19px;
+}
+
+.terms a {
+    color: #fff;
+    margin-left: 230px;
+    font-size: 16;
+}
+
+
+@media (max-width: 800px) {
+    footer {
+        padding: 20px;
+        /* Reducir el espacio en dispositivos más pequeños */
+    }
+
+    .column {
+        flex: 1 0 100%;
+        /* Las columnas ocupan todo el ancho en dispositivos más pequeños */
+        padding: 0;
+        margin-bottom: 20px;
+        /* Añadir espacio entre columnas en dispositivos más pequeños */
+    }
+
+    .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}

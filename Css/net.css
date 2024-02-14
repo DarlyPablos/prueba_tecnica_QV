@@ -1,0 +1,75 @@
+.content-container {
+    margin-top: 500px;
+
+}
+
+.learn-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+}
+
+.row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.col {
+    width: 33.3%;
+    padding: 20px;
+    position: relative;
+    /* Agregamos posición relativa al contenedor */
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.col.full {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Nunito';
+    font-size: 26px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    position: relative;
+    text-align: center;
+    /* Para centrar el contenido */
+}
+
+.col img {
+    width: 100%;
+    opacity: 0.6;
+    /* Transparencia del 60% */
+}
+
+.col p {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 24px;
+}
+
+.col p:first-child {
+    margin-top: -30px;
+    /* Ajustar según sea necesario */
+}
