@@ -50,20 +50,7 @@
             </figure>
         </div>
     </header>
-
-
-    <!-- Contenido principal -->
-    <main>
-
-        <!-- Secciones... -->
-
-    </main>
-
-    <!-- Pie de página -->
-    <footer>
-        <!-- Copyright y redes sociales -->
-    </footer>
-
+    
 </body>
 
 </html>
